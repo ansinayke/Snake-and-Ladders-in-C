@@ -1,8 +1,8 @@
 # Maze Runner at UCSC
 
 [![Standard: C11](https://img.shields.io/badge/Standard-C11-00599C?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
-[![Libraries: Standard C](https://shields.io)](https://wikipedia.org)
-[![Compiler: GCC](https://shields.io)](https://gnu.org)
+[![Library: Standard C](https://img.shields.io/badge/Library-Standard_C-00599C?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_standard_library)
+[![Compiler: GCC](https://img.shields.io/badge/Compiler-GCC-A42E2B?logo=gnu&logoColor=white)](https://gcc.gnu.org/)
 
 ## Overview
 
