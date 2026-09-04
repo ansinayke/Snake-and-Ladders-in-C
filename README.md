@@ -1,9 +1,8 @@
 # Maze Runner at UCSC
 
-![Language](https://img.shields.io/badge/language-C-00599C?logo=c&logoColor=white)
-![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-lightgrey)
-![Architecture](https://img.shields.io/badge/architecture-data--driven-blue)
-![Game](https://img.shields.io/badge/game-multi--floor%20maze-2E7D32)
+[![Standard: C11](https://img.shields.io/badge/Standard-C11-00599C?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
+[![Libraries: Standard C](https://shields.io)](https://wikipedia.org)
+[![Compiler: GCC](https://shields.io)](https://gnu.org)
 
 ## Overview
 
@@ -112,7 +111,7 @@ The `Player` structure and status enum keep position, direction, movement points
 From the project directory:
 
 ```bash
-gcc -Wall -Wextra -pedantic main.c -o maze_runner
+gcc main.c -o maze_runner
 ./maze_runner
 ```
 
@@ -145,7 +144,3 @@ Building this game improved my ability to model a non-trivial problem as explici
 - Validate coordinate ranges before storing loaded entities.
 - Add command-line options for the input directory and output filenames.
 - Improve portability by replacing the platform-specific `sleep` dependency with a clearer optional presentation layer.
-
-## License
-
-This project is presented as a personal portfolio project. Add a license if you plan to invite reuse or contributions.
